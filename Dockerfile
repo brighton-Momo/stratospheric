@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir Flask
 # Expose port 5000 (the default Flask port)
 EXPOSE 5000
 
-# Set the command to run the application when the container starts today
+# Set the command to run the application when the container starts today Saturday
 CMD ["python", "app.py"]
